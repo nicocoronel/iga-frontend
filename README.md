@@ -1,40 +1,47 @@
-# Quasar App (quasar-project)
+# 📄 IGA Frontend
 
-A Quasar Project
+Frontend del sistema de gestión de cursos para IGA. Construido con Vue 3 y Quasar Framework.
 
-## Install the dependencies
+## 🚀 Tecnologías utilizadas
+
+- Vue 3
+- Quasar Framework
+- Axios
+- Vite
+
+## 📦 Requisitos
+
+- Node.js (recomendado v18+)
+- NPM o Yarn
+- Quasar CLI
+
+Instalación de Quasar CLI (si no lo tenés):
+
 ```bash
-yarn
-# or
-npm install
+npm install -g @quasar/cli
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+# 🔧 Instalación y ejecución
+
 ```bash
+git clone https://github.com/usuario/iga-frontend.git
+cd iga-frontend
+npm install
 quasar dev
 ```
 
+Accedé a la app en: http://localhost:9000
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+# 🌐 Conexión al Backend
 
+El frontend espera que el backend esté corriendo en: http://localhost:8080
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+# 🗂️ Estructura del proyecto
 
+src/pages: vistas principales de la aplicación
 
-### Build the app for production
-```bash
-quasar build
-```
+src/components: componentes reutilizables
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+src/layouts: layouts generales
+
+src/router: configuración de rutas
